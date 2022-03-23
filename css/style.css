@@ -1,0 +1,776 @@
+/******************* Start My Framwork *******************/
+
+/*Logo Color*/
+
+.C-Mama
+{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.C-Name
+{
+    color: #ff97a1;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.Fram-Div
+{
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.Fram-StyleTitle
+{
+    font-size: 50px;
+    margin-bottom: 70px !important;
+    color: #e64747;
+}
+
+.Fram-I i
+{
+    background-color: #4e4747;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.styleh3
+{
+    font-size: 1.60rem !important;
+    color: #08526d;
+}
+
+
+.Fram-Text-I p
+{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+.Fram-Span
+{
+    font-weight: bold;
+    color: #f74c4c;
+    font-size: 23px;
+}
+
+.Fram-P
+{
+    line-height: 1.8;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .Fram-Span
+    {
+        font-size: 19px !important;
+    }
+    
+    .Fram-P
+    {
+        font-size: 16px !important;
+    }
+}
+
+
+/******************* End My Framwork *******************/
+
+/******************** Start NavBar **********************/
+
+.navbar 
+{
+    background-color: #08526d !important;
+}
+
+
+.navbar .nav-link
+{
+    font-size: 19px;
+    margin-left: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF !important;
+}
+
+/****************** End NavBar *******************/
+
+/****************** Start Slider *******************/
+
+.slider
+{
+    background-color: #DDD;
+}
+
+.slider .carousel-inner h1
+{
+    position: absolute;
+    color: #FFF;
+    z-index: 3;
+    font-size: 72px;
+    max-width: 800px;
+    line-height: 1.6;
+    left: 100px;   
+    right: 100px;
+}
+
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+.slider .carousel-indicators li 
+{
+    height: 8px;
+    cursor: pointer;
+}
+
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.slider .carousel-inner h1 span
+{
+    color: #FFF;
+    background-color: #ec1c23;
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.slider .carousel-item
+{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.slider .carousel-1
+{
+    background-image: url('../images/slider/M1.webp');
+}
+
+.slider .carousel-2
+{
+    background-image: url('../images/slider/M2.webp');
+}
+.slider .carousel-3
+{
+    background-image: url('../images/slider/M3.webp');
+}
+.slider .carousel-4
+{
+    background-image: url('../images/slider/M4.webp');
+}
+.slider .carousel-5
+{
+    background-image: url('../images/slider/M5.webp');
+}
+
+.slider .carousel-6
+{
+    background-image: url('../images/slider/M6.webp');
+}
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 72px;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 72px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 65px;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .slider .carousel-inner h1
+    {
+        right: 40px;
+        left: 40px;
+        font-size: 48px;
+    }
+}
+
+
+/****************** End Slider *******************/
+
+/*Start About*/
+
+.about
+{
+    background-color: whitesmoke;
+}
+
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+   
+    .about .styleh3
+    {
+        font-size: 22px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .about .styleh3
+    {
+        font-size: 25px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .Fram-StyleTitle
+    {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .about .style-title
+    {
+        font-size: 37px !important;
+    }
+}
+
+/*End About*/
+/***********************************************/
+/*Start Activity*/
+
+.Activity .styleh3
+{
+    font-size: 22px !important;
+}
+/*End Activity*/
+/***********************************************/
+/*Start Our_Team*/
+
+.our_team .team 
+{
+    background-color: whitesmoke;
+}
+
+.our_team .styleh3
+{
+    margin-top: 10px;
+}
+
+.our_team .Desc-Team
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.our_team .Fram-P
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our_team i
+{
+    cursor: pointer;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.our_team .stylegoogle
+{
+    color: #4285f4;
+}
+
+.our_team .stylefacebook
+{
+    color: #3b5998;
+}
+
+.our_team .styleTwitter
+{
+    color: #1da1f2;
+}
+
+.our_team .styleYoutube
+{
+    color: #ff4c4c;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .our_team i
+    {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .our_team i
+    {
+        margin-bottom: 45px;
+    }
+}
+
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .our_team i
+    {
+        margin-bottom: 45px;
+    }
+}
+
+
+/*End Our_Team*/
+/***********************************************/
+/*Start Doctor*/
+
+.Doctor
+{
+    background-color: #FFF;
+}
+
+.Doctor .C-Mama
+{
+    color: #08526d;
+    font-size: 20px;
+}
+
+.Doctor .C-Name
+{
+    font-size: 20px;
+}
+
+.Doctor .Fram-P 
+{
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+    .Doctor .Doc-Img img
+    {
+        margin-top: 15px;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .Doctor .Doc-Img img
+    {
+        height: 245px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .Doctor .Doc-Img img
+    {
+        margin-bottom: 30px;
+        width: 500px;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .Doctor .Doc-Img img
+    {
+        margin-bottom: 30px;
+        width: 290px;
+    }
+
+    .Doctor .Fram-Div 
+    {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    
+}
+
+
+/*End Doctor*/
+/*********************************************************/
+/*Start Gallery */
+.container.gallery-container {
+    background-color: whitesmoke;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h2 
+{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 40px !important;
+}
+
+.gallery-container p.page-description 
+{
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.gallery-container span
+{
+    color: #f74c4c;
+}
+
+.tz-gallery 
+{
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .gallery-container h2 
+    {
+        font-size: 26px !important;
+    }
+
+    .gallery-container p.page-description 
+    {
+        font-size: 16px;
+    }
+
+}
+
+/*End Gallery */
+/*********************************************************/
+/*Start Statistic*/
+
+.stats
+{
+    background-color: #e8e8e8;
+    color: #08526d;
+    padding-bottom: 70px;
+}
+
+.stats img
+{
+    height: 100px;
+    width: 100px;
+}
+.stats .number
+{
+    display: block;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.stats h3
+{
+    color: #ed1d24;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .stats h3
+    {
+        margin-bottom: 35px;
+    }
+}
+
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .stats .Fram-StyleTitle
+    {
+        font-size: 28px !important;
+    }
+}
+
+
+
+/*End Statistic*/
+/*********************************************************/
+/*Start Raison*/
+.Raison
+{
+    background:rgba(2,2,2,0.8);
+    color:#FFF;
+    padding-bottom: 20px;
+}
+.Raison .style-Raison
+{
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: left;
+}
+
+.Raison  span
+{
+    font-weight: bold;
+    color: #f35a5a;
+    font-size: 23px;
+}
+
+.Raison h2
+{
+    color: #ed1d24;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .Raison h2 
+    {
+        font-size: 31px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .Raison h2
+    {
+        font-size: 27px;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+
+    .Raison h2
+    {
+        font-size: 24px;
+    }   
+}
+
+/*End Raison*/
+/*********************************************************/
+/*Start Footer*/
+
+
+.footer .Creche-info span
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+.footer .style-Creche-info
+{
+    font-size: 23px;
+    color: black;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.footer .contact-info h2
+{
+    font-size: 33px;
+    color: #3d78d0;
+    text-align: left !important;
+}
+
+.footer .contact-info .fa-2x 
+{
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+
+}
+
+.footer .contact-info .AddresseI
+{
+    margin-bottom: 22px;
+}
+
+.footer .styleFrame
+{
+    overflow: hidden;  
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .footer .contact-info h2
+    {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .footer .contact-info h2
+    {
+        margin-top: -20px;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .footer .Fram-StyleTitle 
+    {
+        font-size: 30px !important;
+    }
+
+    .footer .contact-info h2
+    {
+        font-size: 25px;
+    }
+
+    .footer .contact-info .fa-2x 
+    {
+        font-size: 18px;
+    }
+
+    .footer .Plus-Contact
+    {
+        font-size: 25px;
+    }
+
+   
+}
+
+/*End Footer*/
+/*******************************************************/
+
+
+/*Start CopyRight*/
+.CopyRight
+{
+    background-color: black;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+        font-size: 15px;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: left!important;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: center !important;
+        font-size: 14px;
+    }
+}
+
+/*********************************************/
+@media (min-width: 336px) and (max-width: 575px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: center !important;
+        font-size: 10px !important;
+    }
+}
+/**********************************************/
+
+@media  (min-width: 320px) and (max-width: 335px)
+{
+    .CopyRight .CrécheCopyRight
+    {
+        font-size: 10px !important;
+    }
+
+    .CopyRight .devlopper
+    {
+        font-size: 12px !important;
+        text-align: left !important;
+    }
+
+}
+
+/*End CopyRight*/
+/**************************************************/
